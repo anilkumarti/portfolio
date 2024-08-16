@@ -9,7 +9,7 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
-import CV from "../../assets/Resume_Anil_i.pdf";
+import Resume from "../../assets/Resume_Anil_j.pdf";
 import { useTheme } from "../../Common/ThemeContext";
 
 const HeroSection = () => {
@@ -47,11 +47,10 @@ const HeroSection = () => {
           </a>
         </span>
         <p className={styles.description}>
-          Frontend developer dedicated to building elegant, user-friendly
-          websites that blend form and function
+          Passionate frontend developer crafting engaging and responsive web
+          experiences with modern technologies.
         </p>
-        <a href={CV} download>
-          {" "}
+        <a href={Resume} download>
           <button className="hover">Resume</button>{" "}
         </a>
       </div>
