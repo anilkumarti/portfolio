@@ -51,7 +51,7 @@ const HeroSection = () => {
           experiences with modern technologies.
         </p>
         <a href={Resume} download>
-          <button className="hover">Resume</button>{" "}
+          <button className="hover">Resume</button>
         </a>
       </div>
     </section>
