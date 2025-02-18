@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import heroImg from "../../assets/hero-img.png";
+import heroImg from "../../assets/Hero-img.jpg";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import twitterLight from "../../assets/twitter-light.svg";
