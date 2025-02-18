@@ -10,8 +10,8 @@ const Projects = () => {
   return (
     <section id='projects' className={styles.container}>
    <div className={styles.projectsContainer}> 
-    <ProjectCard src={taskBuddy} link={'https://task-management-ecru-three.vercel.app/'} h3={"Task Buddy"} p="Manage tasks, simplify your day"/> 
-   <ProjectCard src={chatapp} link={'https://chatter-box-eight.vercel.app/'} h3="DeskChat" p="Manage your tasks." />
+    <ProjectCard src={taskBuddy} link={'https://task-management-ecru-three.vercel.app/'} h3={"Task Buddy"} p="Manage your tasks."/> 
+   <ProjectCard src={chatapp} link={'https://chatter-box-eight.vercel.app/'} h3="DeskChat" p="Desktop messaging chat app." />
 
         <ProjectCard src={homzy} link={'https://reale-state-nine.vercel.app/'} h3="Homzy" p="Real Estate website" />
 
